@@ -13,27 +13,22 @@ disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
-# [[params.plugins.css]]
-# link = "plugins/bootstrap/bootstrap.min.css"
-# head.htmlに移行
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-# link = "https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.css"
 [[params.plugins.css]]
-# link = "plugins/magnific-popup/magnific-popup.css"
-link = "https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css"
+link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
 # js plugins
-# [[params.plugins.js]]
-# link = "plugins/jquery/jquery.min.js"
-# footer.htmlに移行
-# [[params.plugins.js]]
-# link = "plugins/bootstrap/bootstrap.min.js"
-# footer.htmlに移行
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
