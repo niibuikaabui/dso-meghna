@@ -2,25 +2,19 @@
 skill:
   enable : true
   title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  subtitle : 中小企業のブランディングを幅広くサポート！
+  content : 農林水産業、製造小売業の中小企業に対し、商品開発・販売のお手伝いをいたします
   image : images/about/company-growth.webp
   skill_item :
     # skill item loop
-    - name :  Business Development
-      percent : 90%
+    - name :  商品開発
+      percent : 60%
       
     # skill item loop
-    - name :  Analysis
-      percent : 70%
+    - name :  ウェブサイト構築
+      percent : 85%
       
     # skill item loop
-    - name :  Design
-      percent : 80%
-      
-    - name :  IOS Development
+    - name :  IT導入支援
       percent : 95%
       
-    # skill item loop
-    - name :  Android Development
-      percent : 75%

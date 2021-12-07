@@ -1,0 +1,68 @@
+{{"<!-- end Contact Area -->" | safeHTML}}
+<footer id="footer" class="section-bg">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-xl-12">
+
+				{{"<!-- Footer Social Links -->" | safeHTML}}
+				<div class="social-icon">
+					<ul class="list-inline">
+						{{ range site.Params.social }}
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+						{{ end }}
+					</ul>
+				</div>
+
+				{{"<!-- copyright -->" | safeHTML}}
+				<div class="copyright text-center">
+					<a href="{{ site.Home.Permalink }}">
+						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
+					</a>
+					<br>
+					<p>{{ site.Params.copyright | markdownify }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+{{"<!-- /footer -->" | safeHTML}}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if site.Params.map.enable }}
+<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha384"}}
+<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+<!-- cookie -->
+{{ if site.Params.cookies.enable }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-transparent">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires: {{ site.Params.cookies.expire_days }}
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+{{ end }}

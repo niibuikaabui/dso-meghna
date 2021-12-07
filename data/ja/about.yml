@@ -4,13 +4,13 @@ about:
   title : About Us
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : 六次化産業
+    content : 食を支える沖縄の第一次産業のブランディング、商品開発を支援します。主力商品として、伊江島産モズクを使用したがんじゅうフコイダンを扱っております。
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-wand # themify icon pack : https://themify.me/themify-icons
+    title : 中小企業向けウェブ支援
+    content : 本業以外になかなか手の回らない中小企業向けに、ウェブサイトの構築やSNS発信のお手伝いを行います。
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+    title : 中小企業向けIT導入支援
+    content : テレワーク導入、ＩＴ活用による生産性向上、プロセス改善をご提案させていただきます。

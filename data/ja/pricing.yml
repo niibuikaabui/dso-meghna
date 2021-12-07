@@ -1,12 +1,12 @@
 ##################################### pricing ##############################
 pricing:
-  enable : true
+  enable : false
   title : Our Plans
   pricing_table :
     # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+    - name : がんじゅうフコイダン
+      price : 14,040円
+      unit : 本
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -19,9 +19,9 @@ pricing:
         link : "#"
       
     # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+    - name : 【15%OFF】がんじゅうフコイダン定期便
+      price : 11,050円
+      unit : 月1本
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -34,9 +34,8 @@ pricing:
         link : "#"
         
     # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+    - name : コーポレートサイト構築
+      price : 300,000円～
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -49,9 +48,9 @@ pricing:
         link : "#"
         
     # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
+    - name : IT導入支援
+      price : 4,000円
+      unit : 時
       services:
         - 1GB Disk Space
         - 10 Email Account
