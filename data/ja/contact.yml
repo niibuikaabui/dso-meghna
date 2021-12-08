@@ -2,30 +2,30 @@
 contact:
   enable : true
   title : Contact Us
-  subtitle : Contact Details
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  subtitle : お問い合わせ
+  content : 社内に専門家を置けない小規模事業者、個人事業主を対象としております。SNSの始め方やウェブサイトの保守など、後回しにしがちな業務を一度お気軽にご相談ください。
 
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+      info : "〒901-2132　沖縄県浦添市伊祖4-21-11（M2-2）"
       
-    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +880-31-000-000"
+    # - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+    #   info : "Phone: +880-31-000-000"
       
-    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-      info : "Fax: +880-31-000-000"
+    # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+    #   info : "Fax: +880-31-000-000"
       
-    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@meghna.com"
+    # - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+    #   info : "Email: hello@meghna.com"
 
 
   # Contact form
   contact_form:
     enable : true
-    form_action : "#" #contact form works with https://formspree.io
-    name : "Your Name"
-    email : "Your Email"
-    subject : "Subject"
-    message : "Message"
-    submit : "Submit"
+    form_action : "https://formspree.io/f/xnqwqnqp" #contact form works with https://formspree.io
+    name : "お名前"
+    email : "メールアドレス"
+    subject : "件名"
+    message : "問合せ内容"
+    submit : "送信"
