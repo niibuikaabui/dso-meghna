@@ -10,6 +10,7 @@ summaryLength = "15"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
+defaultContentLanguage = "ja"
 
 ############################# Plugins ##########################
 # css plugins
@@ -83,45 +84,45 @@ weight = 7
 
 
 ################### English Navigation ########################
-[[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
+# [[Languages.en.menu.main]]
+# name = "about"
+# url = "#about"
+# weight = 1
 
-[[Languages.en.menu.main]]
-name = "services"
-url = "#services"
-weight = 2
+# [[Languages.en.menu.main]]
+# name = "services"
+# url = "#services"
+# weight = 2
 
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
+# [[Languages.en.menu.main]]
+# name = "portfolio"
+# url = "#portfolio"
+# weight = 3
 
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
+# [[Languages.en.menu.main]]
+# name = "team"
+# url = "#team"
+# weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
+# [[Languages.en.menu.main]]
+# name = "pricing"
+# url = "#pricing"
+# weight = 5
 
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+# [[Languages.en.menu.main]]
+# name = "blog"
+# url = "#blog"
+# weight = 6
 
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
+# [[Languages.en.menu.main]]
+# name = "contact"
+# url = "#contact"
+# weight = 7
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+# [[Languages.en.menu.main]]
+# name = "themefisher"
+# url = "https://themefisher.com/"
+# weight = 8
 
 
 
@@ -189,11 +190,11 @@ home = "Home"
 copyright = "Copyright &copy; 2021 Dream Support Okinawa"
 
 ################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-home = "Home"
-copyright = "Copyright &copy; 2021 Dream Support Okinawa"
+# [Languages.en]
+# languageName = "En"
+# languageCode = "en-us"
+# contentDir = "content/english"
+# weight = 2
+# home = "Home"
+# copyright = "Copyright &copy; 2021 Dream Support Okinawa"
 
